@@ -13,7 +13,6 @@ function left_90 () {
     basic.pause(250)
     reromicro.Brake()
 }
-basic.showNumber(0)
 let speed = 35
 let strip = neopixel.create(DigitalPin.P1, 7, NeoPixelMode.RGB)
 strip.showColor(neopixel.colors(NeoPixelColors.Green))
